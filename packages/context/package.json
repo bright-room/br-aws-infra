@@ -1,0 +1,13 @@
+{
+  "name": "context",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rm -fr ./dist && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.9",
+    "@tsconfig/node20": "20.1.4",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.4"
+  }
+}
