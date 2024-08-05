@@ -1,5 +1,6 @@
 {
   "name": "br-aws-infra",
+  "type": "module",
   "engines": {
     "node": "20.16.0",
     "npm": "please_use_pnpm_instead",
@@ -8,8 +9,18 @@
   },
   "packageManager": "pnpm@9.6.0",
   "scripts": {
+    "lint": "eslint ./ && prettier --check ./",
+    "format": "eslint --fix ./ && prettier --write ./",
     "context": "pnpm -F \"context\"",
     "utils": "pnpm -F \"utils\"",
     "artifacts": "pnpm -F \"artifacts\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.0.0",
+    "typescript-eslint": "^7.18.0"
   }
 }

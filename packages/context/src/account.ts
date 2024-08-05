@@ -4,6 +4,6 @@ export const Account = {
   INTERNAL_STAGING: "000000000002",
   EXTERNAL_STAGING: "000000000003",
   USER_ACCEPTANCE_TEST_STAGING: "000000000004",
-  PRODUCTION: "000000000005"
+  PRODUCTION: "000000000005",
 } as const
 export type Account = (typeof Account)[keyof typeof Account]
