@@ -5,8 +5,8 @@
     "build": "rm -fr ./dist && tsc"
   },
   "devDependencies": {
-    "@aws/pdk": "0.23.47",
-    "@types/node": "20.14.9",
+    "@aws/pdk": "0.23.48",
+    "@types/node": "20.14.14",
     "@tsconfig/node20": "20.1.4",
     "ts-node": "10.9.2",
     "typescript": "5.5.4"
