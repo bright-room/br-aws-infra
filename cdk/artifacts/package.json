@@ -8,16 +8,16 @@
     "deploy": "cdklocal deploy"
   },
   "devDependencies": {
-    "@types/node": "20.14.14",
+    "@types/node": "20.14.15",
     "@tsconfig/node20": "20.1.4",
-    "aws-cdk": "2.151.0",
+    "aws-cdk": "2.151.1",
     "ts-node": "10.9.2",
     "typescript": "5.5.4",
     "context": "workspace:*",
     "utils": "workspace:*"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.151.0",
+    "aws-cdk-lib": "2.151.1",
     "constructs": "10.3.0",
     "source-map-support": "0.5.21"
   }
