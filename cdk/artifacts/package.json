@@ -1,0 +1,25 @@
+{
+  "name": "artifacts",
+  "bin": {
+    "artifacts": "bin/index.js"
+  },
+  "scripts": {
+    "bootstrap": "cdklocal bootstrap",
+    "synth": "cdklocal synth",
+    "diff": "cdklocal diff",
+    "deploy": "cdklocal deploy"
+  },
+  "devDependencies": {
+    "@aws/pdk": "0.23.47",
+    "@types/node": "20.14.9",
+    "@tsconfig/node20": "20.1.4",
+    "aws-cdk": "2.150.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.150.0",
+    "constructs": "10.3.0",
+    "source-map-support": "0.5.21"
+  }
+}
