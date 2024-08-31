@@ -10,7 +10,7 @@
     "@biomejs/biome": "1.8.3"
   },
   "engines": {
-    "node": "20.16.0",
+    "node": "20.17.0",
     "npm": "please_use_pnpm_instead",
     "yarn": "please_use_pnpm_instead",
     "pnpm": "9.9.0"
