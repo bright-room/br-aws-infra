@@ -7,13 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.2"
+    "@biomejs/biome": "1.9.4"
   },
   "engines": {
     "node": "20.18.0",
     "npm": "please_use_pnpm_instead",
     "yarn": "please_use_pnpm_instead",
-    "pnpm": "9.12.0"
+    "pnpm": "9.12.2"
   },
-  "packageManager": "pnpm@9.12.0"
+  "packageManager": "pnpm@9.12.2"
 }
