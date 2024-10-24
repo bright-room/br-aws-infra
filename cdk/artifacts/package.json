@@ -10,8 +10,8 @@
     "deploy": "cdklocal deploy"
   },
   "devDependencies": {
-    "@aws/pdk": "0.23.47",
-    "@types/node": "20.16.5",
+    "@aws/pdk": "0.23.72",
+    "@types/node": "20.16.15",
     "@tsconfig/node20": "20.1.4",
     "aws-cdk": "2.161.1",
     "ts-node": "10.9.2",
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "2.161.1",
-    "constructs": "10.3.0",
+    "constructs": "10.3.2",
     "source-map-support": "0.5.21"
   }
 }
